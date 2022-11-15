@@ -1,0 +1,45 @@
+body{
+    background-image: url("fondo.gif");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: cover;
+
+}
+#board{
+    width: 300px;
+    height: 300px;
+}
+.myRow{
+    width: 300px;
+    height: 30px;
+}
+.grid{
+    width: 30px;
+    height: 30px;
+    border: black 0.5px solid;
+    display: inline-block
+}
+.position{
+    display: inline-block;
+}
+.horizontal{
+    width: 35px;
+    height: 15px;
+    border: black 0.5px solid;
+}
+.vertical{
+    width: 15px;
+    height: 35px;
+    border: black 0.5px solid;
+    margin-top: 5px;
+}
+.selected{
+    background-color: blue;
+}
+.hit{
+    background-color: blueviolet;
+}
+.miss{
+    background-color: red;
+}
